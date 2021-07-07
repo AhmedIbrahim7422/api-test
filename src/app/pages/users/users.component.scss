@@ -1,0 +1,15 @@
+.users{
+  margin-top: 10px ;
+}
+.ss{
+  width: 90% !important
+}
+@media (max-width:800px) {
+  .ss row, .users{
+     width: 100% !important;
+     margin: 30px;
+   }
+   .col-6 {
+    width: 100% !important;
+  }
+ }

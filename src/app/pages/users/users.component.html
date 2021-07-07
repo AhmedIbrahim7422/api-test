@@ -1,0 +1,24 @@
+<div class=" search form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="text" placeholder="Search" [(ngModel)]="p">
+  <button class=" btn btn-outline-success my-2 my-sm-0" [routerLink]="['/landing/add_user']">ADD USER</button>
+</div>
+
+<div class="ss row " >
+<div *ngFor="let item of data | filter : p"
+class=" users col-6 ">
+<div class=" bg-info">
+  <div>
+  Name: {{item.name}} <br>
+  User name: {{item.username}} <br>
+  The website: {{item.website}} <br>
+</div></div> </div></div>
+<div class="ss row" >
+  <div *ngFor="let item of dat | filter : p"
+  class=" users col-6">
+  <div class=" bg-info">
+    <div>
+      Name: {{item.name}} <br>
+      User name: {{item.username}} <br>
+      The website: {{item.website}} <br>
+ <br>
+  </div></div> </div></div>

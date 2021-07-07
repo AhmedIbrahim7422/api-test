@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+.users{
+margin-top: 5%;
+position: relative; left: 5%;
+}
+.ss{
+  width: 90%;
+}
+.search{
+  position: absolute !important; top: 2% !important; right: 0% !important;
+}
+@media screen and (max-width:700px) {
+ .ss, .row, .users{
+    width: 100% !important;
+    display:inline;
+
+  }
+  .search{
+    position: relative !important;
+  }
+  .col-6 {
+    width: 100% !important;
+  }
+
+}
